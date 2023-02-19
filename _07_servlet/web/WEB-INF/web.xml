@@ -43,5 +43,45 @@
         <servlet-name>Servlet2</servlet-name>
         <url-pattern>/servlet2</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForwardC</servlet-name>
+        <servlet-class>com.atguigu.servlet.ForwardC</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ForwardC</servlet-name>
+        <url-pattern>/forwardC</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResponseIOServlet</servlet-name>
+        <servlet-class>com.atguigu.servlet.ResponseIOServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseIOServlet</servlet-name>
+        <url-pattern>/responseIOServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Response1</servlet-name>
+        <servlet-class>com.atguigu.servlet.Response1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Response1</servlet-name>
+        <url-pattern>/response1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Response2</servlet-name>
+        <servlet-class>com.atguigu.servlet.Response2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Response2</servlet-name>
+        <url-pattern>/response2</url-pattern>
+    </servlet-mapping>
     
 </web-app>
